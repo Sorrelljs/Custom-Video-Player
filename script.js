@@ -24,6 +24,7 @@ function updatePlayIcon() {
 
 //update progress + timestamp
 
+console.log("thanks for checking out my custom video player");
 function updateProgress() {
   progress.value = (video.currentTime / video.duration) * 100;
   console.log(video.currentTime);
